@@ -3,47 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://&lt;YOUR-USER-NAME&gt;.github.io/index.html</loc>
+    <loc>https://kalexio.github.io/index.html</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://%3cYOUR-USER-NAME%3e.github.io/fr/index.html"
+                href="https://kalexio.github.io/fr/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://%3cYOUR-USER-NAME%3e.github.io/index.html"
+                href="https://kalexio.github.io/index.html"
                 />
   </url>
   
   <url>
-    <loc>https://&lt;YOUR-USER-NAME&gt;.github.io/tags/</loc>
+    <loc>https://kalexio.github.io/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://%3cYOUR-USER-NAME%3e.github.io/fr/tags/"
+                href="https://kalexio.github.io/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://%3cYOUR-USER-NAME%3e.github.io/tags/"
+                href="https://kalexio.github.io/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://&lt;YOUR-USER-NAME&gt;.github.io/</loc>
+    <loc>https://kalexio.github.io/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://%3cYOUR-USER-NAME%3e.github.io/fr/"
+                href="https://kalexio.github.io/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://%3cYOUR-USER-NAME%3e.github.io/"
+                href="https://kalexio.github.io/"
                 />
   </url>
   
