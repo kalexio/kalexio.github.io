@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>untagged on WhiteBox</title>
+    <link>https://kalexio.github.io/tags/untagged/</link>
+    <description>Recent content in untagged on WhiteBox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 27 Jul 2019 12:47:30 +0300</lastBuildDate>
+    
+	<atom:link href="https://kalexio.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Neovim the Lightweight pseudo-IDE champion</title>
+      <link>https://kalexio.github.io/posts/2019/07/neovim-the-lightweight-pseudo-ide-champion/</link>
+      <pubDate>Sat, 27 Jul 2019 12:47:30 +0300</pubDate>
+      
+      <guid>https://kalexio.github.io/posts/2019/07/neovim-the-lightweight-pseudo-ide-champion/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
