@@ -1,28 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Posts on WhiteBox</title>
-        <link>https://kalexio.github.io/posts/</link>
-        <description>Recent content in Posts on WhiteBox</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sat, 27 Jul 2019 12:58:09 +0300</lastBuildDate>
-        <atom:link href="https://kalexio.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-        
-        <item>
-            <title>Neovim The Lightweight pseudo-IDE champion</title>
-            <link>https://kalexio.github.io/posts/2019/07/neovim-the-lightweight-pseudo-ide-champion/</link>
-            <pubDate>Sat, 27 Jul 2019 12:58:09 +0300</pubDate>
-            
-            <guid>https://kalexio.github.io/posts/2019/07/neovim-the-lightweight-pseudo-ide-champion/</guid>
-            <description> Pragmatic programmer: editor is a tool that you must continue to enhance How to setup : use it everyday and enhance step by step each time (tips from practical vim) Show my configuration Describe plugins and use  </description>
-            <content type="html"><![CDATA[<ol>
-<li>Pragmatic programmer: editor is a tool that you must continue to enhance</li>
-<li>How to setup : use it everyday and enhance step by step each time (tips from practical vim)</li>
-<li>Show my configuration</li>
-<li>Describe plugins and use</li>
-</ol>
-]]></content>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>Posts on WhiteBox</title>
+    <link>https://kalexio.github.io/posts/</link>
+    <description>Recent content in Posts on WhiteBox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Jul 2019 12:58:09 +0300</lastBuildDate>
+    
+	<atom:link href="https://kalexio.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Neovim The Lightweight pseudo-IDE champion</title>
+      <link>https://kalexio.github.io/posts/first-post/</link>
+      <pubDate>Sat, 27 Jul 2019 12:58:09 +0300</pubDate>
+      
+      <guid>https://kalexio.github.io/posts/first-post/</guid>
+      <description>One to edit all A large portion of a programmer&amp;rsquo;s everyday work is to manipulate text and knowing to do this effortlessly can enhance his/her efficiency at coding. The best way, in my opinion, to be proficient with an editor is to pick one, which ever one you want, and use it every day to edit just anything, tweak it a little from time to time, cut down the number of keystrokes you need to type for a specific task and in general stick with it.</description>
+    </item>
+    
+  </channel>
 </rss>
