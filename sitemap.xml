@@ -14,7 +14,31 @@
   </url>
   
   <url>
+    <loc>https://kalexio.github.io/tags/</loc>
+    <lastmod>2019-07-27T12:58:09+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kalexio.github.io/</loc>
+    <lastmod>2019-07-27T12:58:09+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kalexio.github.io/tags/neovim/</loc>
+    <lastmod>2019-07-27T12:58:09+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kalexio.github.io/tags/productivity/</loc>
+    <lastmod>2019-07-27T12:58:09+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kalexio.github.io/tags/vim/</loc>
     <lastmod>2019-07-27T12:58:09+03:00</lastmod>
     <priority>0</priority>
   </url>
@@ -32,11 +56,6 @@
   
   <url>
     <loc>https://kalexio.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kalexio.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
