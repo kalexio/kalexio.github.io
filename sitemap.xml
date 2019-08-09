@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kalexio.github.io/posts/first-post/</loc>
+    <loc>https://kalexio.github.io/tags/neovim/</loc>
+    <lastmod>2019-07-27T12:58:09+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kalexio.github.io/posts/neovim-my-lightweight-pseudo-ide-champion/</loc>
     <lastmod>2019-07-27T12:58:09+03:00</lastmod>
   </url>
   
@@ -20,25 +26,19 @@
   </url>
   
   <url>
+    <loc>https://kalexio.github.io/tags/vim/</loc>
+    <lastmod>2019-07-27T12:58:09+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kalexio.github.io/</loc>
     <lastmod>2019-07-27T12:58:09+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kalexio.github.io/tags/neovim/</loc>
-    <lastmod>2019-07-27T12:58:09+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://kalexio.github.io/tags/productivity/</loc>
-    <lastmod>2019-07-27T12:58:09+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kalexio.github.io/tags/vim/</loc>
     <lastmod>2019-07-27T12:58:09+03:00</lastmod>
     <priority>0</priority>
   </url>

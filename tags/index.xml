@@ -12,11 +12,20 @@
     
     
     <item>
-      <title>neovim</title>
+      <title>Neovim</title>
       <link>https://kalexio.github.io/tags/neovim/</link>
       <pubDate>Sat, 27 Jul 2019 12:58:09 +0300</pubDate>
       
       <guid>https://kalexio.github.io/tags/neovim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>https://kalexio.github.io/tags/vim/</link>
+      <pubDate>Sat, 27 Jul 2019 12:58:09 +0300</pubDate>
+      
+      <guid>https://kalexio.github.io/tags/vim/</guid>
       <description></description>
     </item>
     
@@ -26,15 +35,6 @@
       <pubDate>Sat, 27 Jul 2019 12:58:09 +0300</pubDate>
       
       <guid>https://kalexio.github.io/tags/productivity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vim</title>
-      <link>https://kalexio.github.io/tags/vim/</link>
-      <pubDate>Sat, 27 Jul 2019 12:58:09 +0300</pubDate>
-      
-      <guid>https://kalexio.github.io/tags/vim/</guid>
       <description></description>
     </item>
     

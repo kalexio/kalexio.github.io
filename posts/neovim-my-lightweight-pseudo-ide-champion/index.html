@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+         
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Neovim: My Lightweight pseudo-IDE champion</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: red;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://kalexio.github.io/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.55.6" />
+        
+
+        
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145272176-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+
+          gtag('config', 'UA-145272176-1');
+        </script>
+        
+    </head>
+
+    
+    
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Neovim: My Lightweight pseudo-IDE champion</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                                <li><a href="about/">About</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="ekalexio@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/kalexio/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/kalexi0/"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/kalexio/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/posts/neovim-my-lightweight-pseudo-ide-champion/">Neovim: My Lightweight pseudo-IDE champion</a></h4>
+    <h5>July 27, 2019</h5>
+    
+    <a href="https://kalexio.github.io/tags/vim"><kbd class="item-tag">Vim</kbd></a>
+    
+    <a href="https://kalexio.github.io/tags/neovim"><kbd class="item-tag">Neovim</kbd></a>
+    
+    <a href="https://kalexio.github.io/tags/productivity"><kbd class="item-tag">productivity</kbd></a>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+<h2 id="one-to-edit-all">One to edit all</h2>
+
+<p>A large portion of a programmer&rsquo;s everyday work is to manipulate text and
+knowing how to do this effortlessly can enhance his/her efficiency at coding.
+The best way, in my opinion, to be proficient with an editor is to pick one,
+which ever one you want, and use it every day to edit just anything and in
+genaral stick with it. Occasionally tweak it a little, try to cut down the
+number of keystrokes you need to type for a specific task and think about what
+can be improved in your workflow.</p>
+
+<p>I remember when the senior who was responsible for me, told me at my very first
+day at work that was ok to spend a couple of days to setup my editor, as all
+this initial lost time would be amortized in the long run. He was using emacs so
+I selected Vim, more specifically Neovim, for obvious reasons. 😄</p>
+
+<h3 id="the-path-to-the-glory">The path to the glory</h3>
+
+<p>At the beginning was somewhat cumbersome to edit everything with Nvim as our
+codebase was big and complex but I stuck with my plan and this little everyday
+habit increased my productivity over time. Till now Nvim is my sole editor and
+is the first program that I fire up every day. It has been converted into a
+lightweight IDE as I will describe bellow and I am happy seeing my editing
+skills progressing alongside with the programming ones. By the way <a href="https://github.com/kalexio/dotfiles">init.vim</a>
+of this repo is my Nvim configuration.</p>
+
+<h2 id="traits-of-a-lighweight-champion">Traits of a Lighweight Champion</h2>
+
+<p>Nvim which is heavily based on Vim is a very powerful editor but in order to be
+used efficiently in large codebases one has to configure it.
+I wanted to keep my
+configuration as simple as possible and also not to be relied upon a myriad of
+plugins in order to not disrupt the core mechanics of the editor and to be
+almost equal efficient when confronted with a plain Vim/Nvim in another machine.
+Also I try to use plugins that are <a href="http://vimcasts.org/blog/2012/08/on-sharpening-the-saw/"><em>sharpening the saw</em></a> as drew neil says and
+which fit the Vim philosophy well. All of them are separated into the below
+categories:</p>
+
+<ol>
+<li><p><strong>Eyecandy:</strong> I use <a href="https://github.com/morhetz/gruvbox">gruvbox</a> for a nice
+colorscheme and <a href="https://github.com/itchyny/lightline.vim">lightline.vim</a> for a
+light and configurable statusline/tabline. Nothing special here.</p></li>
+
+<li><p><strong>Utilities:</strong> <a href="https://github.com/bronson/vim-trailing-whitespace">vim-trailing-whitespace</a>
+anotates trailing spaces and creates a new command &ldquo;<em>:FixWhitespace</em>&rdquo; for
+instant cleaning of them and <a href="https://github.com/airblade/vim-gitgutter">vim-gitgutter</a>
+which operates like a git diff and shows a quick preview of your changes on the
+file you are editing. Well, nothing special again, you can live happily without
+them.</p></li>
+
+<li><p><strong>Project-wide search:</strong> The plugins of this category are the most important ones.
+They enhance my workflow and convert Nvim to a lightweigth
+IDE. These plugins are related to how quickly you can find a specific symbol
+(function, parameter etc) or getting familiar with large codebases. More
+specifically, I use <a href="https://github.com/majutsushi/tagbar">tagbar</a> which provides
+an easy way to browse the tags of the current file and get an overview of its
+structure (super useful when opening a file for first
+time!) and <a href="https://github.com/tpope/vim-vinegar">vim-vinegar</a>.
+Split windows and the project drawer go together like oil and vinegar
+(<a href="http://vimcasts.org/blog/2013/01/oil-and-vinegar-split-windows-and-project-drawer/">an eye opener article for my workflow</a>).
+So  instead of using project
+drawer plugins like the famous NerdTree I prefer using a less well-known built
+in file explorer for Nvim called netrw vinegar just enhances the built in file
+explorer. That way I can be productive also in stock Vim/Nvim.</p></li>
+</ol>
+
+<p>Also for project-wide searching I use two external tools, <a href="http://ctags.sourceforge.net/">ctags</a> and
+<a href="http://cscope.sourceforge.net/">cscope</a>.
+Ctags is used for jumping from function calls to their definitions while cscope tool
+adds the ability to jump to any of the places where a function is
+called. Usually I run the <strong>cscope_gen.sh</strong>  script (see below the shell commands) to create a file which contains
+the filenames of all the files of the project that I am working on.
+This file is  later fed on cscope and ctags to create the cscope database and tags file
+respectively.</p>
+
+<pre><code class="language-bash">find /path/to/source/code/root/directory -path /path/to/folder/for/exclusion -prune -o -print | egrep -i &quot;\.(c|h|cpp|hpp)$&quot; &gt; cscope.files
+cscope -b -q
+ctags -L cscope.files
+</code></pre>
+
+<p>This way I am only a g] or CTRL-] keystrokes away from jumping to
+the place where that method is defined or implemented and  with the command
+&ldquo;<em>:cs find e &ldquo;C symbol&rdquo;</em>&rdquo; I can find the C symbol everywhere in the project.
+Both of them are extremely fast
+because they work on prebuilt indexes to search for the required C symbol. Of
+course sometimes I use the very well known and beloved tool grep.</p>
+
+<p>Dead simple right? This is of course under constant work in progress and I
+recommend everyone to check <a href="http://vimcasts.org/">drew neil&rsquo;s vimcasts</a> as they
+contain a lot of high quality information. Last but not least, this is how my configured Nvim
+currenlty looks like!</p>
+
+<hr />
+
+<h2 id="my-nvim-img-first-post-my-nvim-png"><img src="/img/first-post/My_Nvim.png" alt="My Nvim" /></h2>
+
+<p>If you want to know more about my setup, or want to share yours please leave a
+comment below.</p>
+</div>
+
+    
+    
+
+    
+
+    
+
+        <h4 class="page-header">Comments</h4>
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "kalexio" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
+
+        </footer>
+       
+    </body>
+
+</html>
+
