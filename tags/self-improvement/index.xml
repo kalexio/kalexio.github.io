@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on WhiteBox</title>
-    <link>https://kalexio.github.io/posts/</link>
-    <description>Recent content in Posts on WhiteBox</description>
+    <title>Self-improvement on WhiteBox</title>
+    <link>https://kalexio.github.io/tags/self-improvement/</link>
+    <description>Recent content in Self-improvement on WhiteBox</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 24 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://kalexio.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kalexio.github.io/tags/self-improvement/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>https://kalexio.github.io/posts/projecting-life-into-programming/</guid>
       <description>Recently I joined forces with Citrix Systems here in Patras. Citrix is an American multinational software company that provides server, application and desktop virtualization, networking, software as a service, and cloud computing technologies according to Wikipedia.
 For personal and professional reasons this transition was a tough choice to make. Based on this choice I would like to explain how I try to see the profession of the programmer though the lens of everyday life for ensuring progress and better decision making.</description>
-    </item>
-    
-    <item>
-      <title>Neovim: My Lightweight pseudo-IDE champion</title>
-      <link>https://kalexio.github.io/posts/neovim-my-lightweight-pseudo-ide-champion/</link>
-      <pubDate>Sat, 27 Jul 2019 12:58:09 +0300</pubDate>
-      
-      <guid>https://kalexio.github.io/posts/neovim-my-lightweight-pseudo-ide-champion/</guid>
-      <description>One to edit all A large portion of a programmer&amp;rsquo;s everyday work is to manipulate text and knowing how to do this effortlessly can enhance his/her efficiency at coding. The best way, in my opinion, to be proficient with an editor is to pick one, which ever one you want, and use it every day to edit just anything and in genaral stick with it. Occasionally tweak it a little, try to cut down the number of keystrokes you need to type for a specific task and think about what can be improved in your workflow.</description>
     </item>
     
   </channel>
